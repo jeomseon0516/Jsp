@@ -1,7 +1,11 @@
 INDEX VERSION 1.134
 /Users/a1111/Desktop/Workspace/JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2688930815.index
 /ch01/src/main/java
+/Users/a1111/Desktop/Workspace/JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1954104120.index
+/ch03/src/main/java
 /Users/a1111/Desktop/Workspace/JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3235574211.index
 /ch02/src/main/java
 /Users/a1111/Desktop/Workspace/JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4091512955.index
 /ch02/src/main/java
+/Users/a1111/Desktop/Workspace/JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2275737433.index
+/ch03/src/main/java
