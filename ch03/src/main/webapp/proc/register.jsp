@@ -20,7 +20,7 @@
 			String[] hobbies = request.getParameterValues("hobby"); // 1개 이상의 배열
 			String addr = request.getParameter("addr");
 			String introduce = request.getParameter("introduce");
-			String id = request.getParameter("id"); // hidden 필드값
+			String id = request.getParameter("id"); // hidden 필드값 
 		%>
 		<table border="1">
 			<tr>
