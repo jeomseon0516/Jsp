@@ -3,14 +3,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>user1::등록</title>
+		<title>user3::등록</title>
 	</head>
 	<body>
-		<h3>User1 등록</h3>
+		<h3>User3 목록</h3>
 		<a href="/ch05/1_jdbc.jsp">메인</a>
-		<a href="/ch05/user1/list.jsp">목록</a>
+		<a href="/ch05/user3/list.jsp">목록</a>
 		
-		<form action="/ch05/user1/proc/register.jsp" method="post">
+		<form action="/ch05/user3/proc/register.jsp" method="post">
 			<table border="1">
 				<tr>
 					<td>아이디</td>
@@ -21,12 +21,16 @@
 					<td><input type="text" name="name"></td>
 				</tr>
 				<tr>
+					<td>생일</td>
+					<td><input type="date" name="birth"></td>
+				</tr>
+				<tr>
 					<td>휴대폰</td>
 					<td><input type="text" name="hp"></td>
 				</tr>
 				<tr>
-					<td>나이</td>
-					<td><input type="number" name="age"></td>
+					<td>주소</td>
+					<td><input type="text" name="addr"></td>
 				</tr>
 				<tr>
 					<td colspan="2" align="right">

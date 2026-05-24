@@ -6,34 +6,30 @@
 
 <% 
 	// 전송 데이터 수신
-	String userid 	= request.getParameter("userid");
 	String name 	= request.getParameter("name");
-	String hp 		= request.getParameter("hp");
+	String gender 	= request.getParameter("gender");
 	String age 		= request.getParameter("age");
+	String addr 	= request.getParameter("addr");
 	
 	// ------------------------------
 	// 데이터베이스 저장
 	// ------------------------------
-	
 	try {
 		Context	initCtx = new InitialContext();
 		Context ctx = (Context)initCtx.lookup("java:comp/env"); // JNDI 기본 환경 이름
 				
 		DataSource ds = (DataSource)ctx.lookup("jdbc/studydb");	
 		Connection conn = ds.getConnection();
-		// 3) SQL 실행 객체 생성
-		String sql = "INSERT INTO `User1` VALUES(?,?,?,?)";
-		PreparedStatement psmt = conn.prepareStatement(sql);
-		psmt.setString(1, userid);
-		psmt.setString(2, name);
-		psmt.setString(3, hp);
-		psmt.setString(4, age); // 21, '21'
 		
-		// 4) SQL 실행
+		String sql = "INSERT INTO `User5` (name, gender, age, addr) VALUES(?,?,?,?)";
+		PreparedStatement psmt = conn.prepareStatement(sql);
+		psmt.setString(1, name);
+		psmt.setString(2, gender);
+		psmt.setString(3, age);
+		psmt.setString(4, addr); 
+		
 		psmt.executeUpdate();
 		
-		// 5) 결과셋 처리(SELECT일 경우)
-		// 6) 데이터베이스 종료
 		psmt.close();
 		conn.close();
 	} catch(Exception e) {
@@ -41,5 +37,5 @@
 	}
 	
 	// 목록 이동
-	response.sendRedirect("/ch05/user1/list.jsp?register=success");
+	response.sendRedirect("/ch05/user5/list.jsp?register=success");
 %>
