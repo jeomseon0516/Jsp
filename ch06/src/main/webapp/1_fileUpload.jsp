@@ -4,6 +4,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>1_fileUpload</title>
+		<!-- 
+			날짜 : 2026/05/26
+			이름 : 남현호
+			내용 : JSP 파일 업로드/다운로드 실습
+			
+			JSP 업로드 방식
+			 
+			 1) cos.jar 방식
+			  - 전통적인 고전 업로드 방식
+			  - cos.jar 외부 라이브러리 사용
+			 
+			 2) apache fileupload 라이브러리 방식
+			  - apache fileupload 라이브러리를 이용한 방식
+			  - Springboot 기본 내장된 업로드 방식
+			  
+			 3) Tomcat Part 방식
+			  - Servlet 6버전에 추가된 업로드 방식
+			  - 최신 JSP/Servlet에서는 해당 방식 권장
+		-->
 	</head>
 	<body>
 		<h3>2.파일 업로드 실습</h3>
