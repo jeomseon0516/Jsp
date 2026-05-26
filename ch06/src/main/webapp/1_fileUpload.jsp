@@ -22,6 +22,10 @@
 			 3) Tomcat Part 방식
 			  - Servlet 6버전에 추가된 업로드 방식
 			  - 최신 JSP/Servlet에서는 해당 방식 권장
+			
+			Tomcat Part 업로드 설정
+			 - context.xml > Context 태그에 allowCasualMultipartParsing="true" 선언
+			 - server.xml > 64라인: Connector 태그에 maxPostSize="10485760" 선언 (10MB = 1024 x 1024 x 10)
 		-->
 	</head>
 	<body>
