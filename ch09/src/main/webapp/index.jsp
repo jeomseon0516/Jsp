@@ -9,8 +9,16 @@
 		<h3>10.MVC 아키텍처</h3>
 		
 		<h4>MVC 기본</h4>
-		<a href='./hello.do'>HelloServlet</a>
-		<a href='./welcome.do'>WelcomeServlet</a>
-		<a href='./greeting.do'>GreetingServlet</a>
+		<a href='./hello.do'>HelloServlet</a><br/>
+		<a href='./welcome.do'>WelcomeServlet</a><br/>
+		<a href='./greeting.do'>GreetingServlet</a><br/>
+		
+		<h4>MVC 종합실습</h4>
+		<a href="/ch09/user1/list.do">User1 목록</a>
+		<a href="/ch09/user2/list.do">User2 목록</a>
+		<a href="/ch09/user3/list.do">User3 목록</a>
+		<a href="/ch09/user4/list.do">User4 목록</a>
+		<a href="/ch09/user5/list.do">User5 목록</a>
+		
 	</body>
 </html>
